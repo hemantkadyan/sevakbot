@@ -1,0 +1,956 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "helo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "How can I update the mobile number linked to my aadhaar card ?",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 21,
+            "end": 34,
+            "value": "mobile number",
+            "entity": "updateType"
+          },
+          {
+            "start": 48,
+            "end": 60,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "I need to update address on my aadhaar card.",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "address",
+            "entity": "updateType"
+          },
+          {
+            "start": 31,
+            "end": 43,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "Correct my date of birth",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "date of birth",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "correction in date of birth",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "date of birth",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "i want to update my photo",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "photo",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "can i update my photo",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "photo",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "how to update my photo in aadhaar card",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "photo",
+            "entity": "updateType"
+          },
+          {
+            "start": 26,
+            "end": 38,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "how to link my aadhaar card with my bank account",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 36,
+            "end": 48,
+            "value": "bank account",
+            "entity": "updateType"
+          },
+          {
+            "start": 15,
+            "end": 27,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "can mobile number in my aadhaar updated",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 4,
+            "end": 17,
+            "value": "mobile number",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "how to update mobile in aadhaar card",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "mobile number",
+            "entity": "updateType"
+          },
+          {
+            "start": 24,
+            "end": 36,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "how",
+            "entity": "infoType"
+          }
+        ]
+      },
+      {
+        "text": "I want to update mobile number in aadhaar card",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "mobile number",
+            "entity": "updateType"
+          },
+          {
+            "start": 34,
+            "end": 46,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "can we update mobile number in aadhaar card",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 31,
+            "end": 43,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 14,
+            "end": 27,
+            "value": "mobile number",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "where can i update my aadhar mobile details",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "where",
+            "entity": "infoType"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "aadhar card",
+            "entity": "idType"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "mobile number",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "can we update address in aadhaar",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "address",
+            "entity": "updateType"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "change mobile number in aadhaar card",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 7,
+            "end": 20,
+            "value": "mobile number",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "where can i change aadhaar address",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "address",
+            "entity": "updateType"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "where",
+            "entity": "infoType"
+          }
+        ]
+      },
+      {
+        "text": "how to update aadhaar address",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "address",
+            "entity": "updateType"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "how",
+            "entity": "infoType"
+          }
+        ]
+      },
+      {
+        "text": "how to update date of birth in aadhar",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "date of birth",
+            "entity": "updateType"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": " aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "how can i change my d.o.b in aadhar card",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "d.o.b",
+            "entity": "updateType"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "aadhar",
+            "entity": "idType"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "how",
+            "entity": "infoType"
+          }
+        ]
+      },
+      {
+        "text": "what should i do to change my date of birth",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "what",
+            "entity": "infoType"
+          },
+          {
+            "start": 30,
+            "end": 43,
+            "value": "date of birth",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "what can i do if my date of birth is wrong",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "what",
+            "entity": "infoType"
+          },
+          {
+            "start": 20,
+            "end": 33,
+            "value": "date of birth",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "what to do when my date of birth is wrong in aadhar card",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "what",
+            "entity": "infoType"
+          },
+          {
+            "start": 19,
+            "end": 32,
+            "value": "date of birth",
+            "entity": "updateType"
+          },
+          {
+            "start": 45,
+            "end": 56,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "what could i possibly do in order to correct my date of birth",
+        "intent": "update",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "what",
+            "entity": "infoType"
+          },
+          {
+            "start": 48,
+            "end": 61,
+            "value": "date of birth",
+            "entity": "updateType"
+          }
+        ]
+      },
+      {
+        "text": "i lost my aadhaar card what should i do ",
+        "intent": "duplicate",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "lost",
+            "entity": "lostCard"
+          }
+        ]
+      },
+      {
+        "text": "i want to apply for duplicate aadhaar card what should i do",
+        "intent": "duplicate",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "what should i do to apply for new aadhaar card if it is misplaced",
+        "intent": "duplicate",
+        "entities": [
+          {
+            "start": 34,
+            "end": 46,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 56,
+            "end": 65,
+            "value": "misplaced",
+            "entity": "lostCard"
+          }
+        ]
+      },
+      {
+        "text": "my aadhaar card got stolen what should i do",
+        "intent": "duplicate",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "stolen",
+            "entity": "lostCard"
+          }
+        ]
+      },
+      {
+        "text": "how is aadhaar card useful in general",
+        "intent": "uses",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "what are the possible general uses of aadhaar card",
+        "intent": "uses",
+        "entities": [
+          {
+            "start": 38,
+            "end": 50,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "uses",
+            "entity": "usefulness"
+          }
+        ]
+      },
+      {
+        "text": "what are the most common uses of aadhaar card",
+        "intent": "uses",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "uses",
+            "entity": "usefulness"
+          },
+          {
+            "start": 33,
+            "end": 45,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "what are the most general uses of aadhaar card",
+        "intent": "uses",
+        "entities": [
+          {
+            "start": 34,
+            "end": 46,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "uses",
+            "entity": "usefulness"
+          }
+        ]
+      },
+      {
+        "text": "how is aadhaar card so useful",
+        "intent": "uses",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "useful",
+            "entity": "usefulness"
+          }
+        ]
+      },
+      {
+        "text": "how is aadhaar card useful for common man",
+        "intent": "uses",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "useful",
+            "entity": "usefulness"
+          }
+        ]
+      },
+      {
+        "text": "how is aadhaar card helpful for farmer",
+        "intent": "uses",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "helpful",
+            "entity": "usefulness"
+          },
+          {
+            "start": 32,
+            "end": 38,
+            "value": "farmer",
+            "entity": "beingType"
+          }
+        ]
+      },
+      {
+        "text": "how is aadhaar card useful for children",
+        "intent": "uses",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "useful",
+            "entity": "usefulness"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "children",
+            "entity": "beingType"
+          }
+        ]
+      },
+      {
+        "text": "how can i apply new aadhaar card",
+        "intent": "apply",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "new",
+            "entity": "new"
+          },
+          {
+            "start": 20,
+            "end": 32,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "i want to apply for new aadhaar card",
+        "intent": "apply",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "new",
+            "entity": "new"
+          },
+          {
+            "start": 24,
+            "end": 36,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "i want to create new aadhaar card",
+        "intent": "apply",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "new",
+            "entity": "new"
+          },
+          {
+            "start": 21,
+            "end": 33,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "i don't have aadhaar card what should i do to create one",
+        "intent": "apply",
+        "entities": [
+          {
+            "start": 13,
+            "end": 25,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 46,
+            "end": 52,
+            "value": "create",
+            "entity": "new"
+          }
+        ]
+      },
+      {
+        "text": "i am facing a difficulty in making a new aadhaar card",
+        "intent": "apply",
+        "entities": [
+          {
+            "start": 41,
+            "end": 53,
+            "value": "aadhaar card",
+            "entity": "idType"
+          },
+          {
+            "start": 37,
+            "end": 40,
+            "value": "new",
+            "entity": "new"
+          }
+        ]
+      },
+      {
+        "text": "what should i do to link my mobile with aadhaar card",
+        "intent": "link",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "mobile",
+            "entity": "objectType"
+          },
+          {
+            "start": 40,
+            "end": 52,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "how can i link my mobile with aadhaar card",
+        "intent": "link",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "mobile",
+            "entity": "objectType"
+          },
+          {
+            "start": 30,
+            "end": 42,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "what are the steps required to link mobile with aaadhaar card",
+        "intent": "link",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "mobile",
+            "entity": "objectType"
+          },
+          {
+            "start": 48,
+            "end": 61,
+            "value": "aaadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "if i have to link mobile number with my aadhaar card what should i do ",
+        "intent": "link",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "mobile number",
+            "entity": "objectType"
+          },
+          {
+            "start": 40,
+            "end": 52,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "if i want to link my bank account with aadhhaar card what should i do",
+        "intent": "link",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "bank account",
+            "entity": "objectType"
+          },
+          {
+            "start": 39,
+            "end": 52,
+            "value": "aadhhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "what are the steps necessary for linking bank account with aadhaar card",
+        "intent": "link",
+        "entities": [
+          {
+            "start": 41,
+            "end": 53,
+            "value": "bank account",
+            "entity": "objectType"
+          },
+          {
+            "start": 59,
+            "end": 71,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "what should i do in order to link my bank account with aadhaar card",
+        "intent": "link",
+        "entities": [
+          {
+            "start": 37,
+            "end": 49,
+            "value": "bank account",
+            "entity": "objectType"
+          },
+          {
+            "start": 55,
+            "end": 67,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      },
+      {
+        "text": "how can i link my bank account with aadhaar card",
+        "intent": "link",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "bank account",
+            "entity": "objectType"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "aadhaar card",
+            "entity": "idType"
+          }
+        ]
+      }
+    ],
+  "entity_synonyms": [
+      {
+        "value": "date of birth",
+        "synonyms": ["dob", "d.o.b.", "birthday","birth date"]
+      },
+      {
+        "value": "aadhaar",
+        "synonyms": ["adhar", "aadhar", "adhaar"]
+      },
+      {
+        "value": "mobile number",
+        "synonyms": ["mobile no.", "mob. no.", "","birth date","birth year","birth month"]
+      }
+    ]
+  }
+}

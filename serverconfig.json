@@ -1,0 +1,7 @@
+{
+  "pipeline": "spacy_sklearn",
+  "path" : "./",
+  "project":"sevakbot",
+  "fixed_model_name": "sevakbot/model-path-pasted-after-training",
+  "data" : "./data/sevak.json"
+}

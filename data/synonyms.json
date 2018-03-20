@@ -1,0 +1,14 @@
+"entity_synonyms": [
+      {
+        "value": "date of birth",
+        "synonyms": ["dob", "d.o.b.", "birthday","birth date"]
+      },
+      {
+        "value": "aadhaar",
+        "synonyms": ["adhar", "aadhar", "adhaar"]
+      },
+      {
+        "value": "mobile number",
+        "synonyms": ["mobile no.", "mob. no.", "","birth date","birth year","birth month"]
+      }
+    ]

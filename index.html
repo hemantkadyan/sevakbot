@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Sevak Bot</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="js/jquery.min.js"></script>
+	
+	<script src="js/bots.js"></script>
+        
+</head>
+<body>
+  <main id="myContainer" class="MainContainer">
+	<div class="container main-section">
+		<div class="row">
+			<div class="col-md-3 col-sm-3 col-xs-12 left-sidebar">
+				<div class="input-group searchbox" style="padding:0;margin:0;">
+					<img src="image/logo.JPG" width="100%">
+				</div>
+				<div class="left-chat">
+					<ul>
+						<li id="sevakbothindi" >
+					<a href="" onclick="return false;"> <div class="chat-left-img">
+								<img src="image/businessman.png">
+							</div>
+							<div class="chat-left-detail">
+								<p>Sevak Bot - Hindi</p>
+								<span><i class="fa fa-circle" aria-hidden="true"></i> online</span>
+							</div> </a>
+						</li>
+						<li id="sevakbotenglish" class="selectedbot">
+					<a href="" onclick="return false;"> <div class="chat-left-img">
+								<img src="image/businessman.png">
+							</div>
+							<div class="chat-left-detail">
+								<p>Sevak Bot - English</p>
+								<span><i class="fa fa-circle" aria-hidden="true"></i> online</span>
+							</div> </a>	
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-9 col-sm-9 col-xs-12 right-sidebar">
+				<div class="row">
+					<div class="col-md-10 right-header">
+						<div class="right-header-img">
+							<img src="image/male_costume.png">
+						</div>
+						<div class="right-header-detail">
+							<p id="username">Your Name</p>
+							<span><i class="fa fa-circle" aria-hidden="true"></i> connected</span>
+						</div>
+					</div>
+					<div class="col-md-2 right-header">
+						<span class="btn btn-default" id="logout">Logout</span>
+					</div>
+				</div>
+				
+				<!--	Chat Box Side	-->
+				<div class="row">
+					<div class="col-md-12 right-header-contentChat">
+						<ul id="chatside">
+
+						</ul>
+					</div>
+				</div>
+				
+				<!--	Chat Box Side	-->
+				
+				<div class="row">
+
+					<div class="col-md-11 right-chat-textbox">
+						<input type="text" id="capture" name="" hidden="hidden" value="true">
+						<input type="text" id="chatinput" style="width:80%;" placeholder="Fire Your Query !">
+						<a href="javascript:sevaklisten();"><i class="fa fa-microphone-slash" id="recbtn" aria-hidden="true"></i></a>
+						<a href="javascript:sendbutton();"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </main>
+
+	<!--Landing Modal Data Area Starts-->
+
+	<div id="myModal" class="Modal is-hidden is-visuallyHidden">
+            <!-- Modal content -->
+            <div class="Modal-content">
+                <span id="closeModal" class="Close">&times;</span>
+                
+				  <div class="form-group">
+				    <label for="yourname">Enter Your Name: / अपना नाम दर्ज करें</label>
+				    <input type="text" class="form-control" id="yourname" aria-describedby="yournameHelp" placeholder="Enter Your Name/ अपना नाम दर्ज करें">				    
+				  </div>
+				
+				<span class="btn btn-primary" id="yournamesubmit">Submit / पुष्टि करें</span>
+            </div>
+    </div>
+
+
+	<!-- Landing Modal Data Area Ends -->
+
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+	    	var height = $(window).height();
+	    	$('.left-chat').css('height', (height - 92) + 'px');
+	    	$('.right-header-contentChat').css('height', (height - 163) + 'px');
+	    });
+	</script>
+	
+	
+	<script src="js/localforage.js"></script>
+	<script src="js/chatcontrol.js"></script>
+	<script src="js/loginapp.js"></script>
+	<script src="js/logoutapp.js"></script>
+	<script src="js/srcbot.js"></script>
+	<script src="js/chatbox.js"></script>
+	<script type="text/javascript" src="js/speechRecognition.js"></script>
+  <script type="text/javascript" src="js/sttcontroller.js"></script>
+</body>
+</html>
