@@ -1,4 +1,6 @@
-# sevakbot
-Sevak Bot - Rajasthan IT DAY - Hackathon 4.0
+#Hackathon 4.0, Rajasthan IT-Day 2018
+## SevakBOT
+An Artificial Intelligent BOT which has a self learning model and NLU incoporated in it.
+
 Youtube Demonistration Link :-
 https://youtu.be/yOnVZbvjTgc
